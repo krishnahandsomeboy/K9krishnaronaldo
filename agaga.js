@@ -1,6 +1,18 @@
-function sq(x){
-    let ans =0;
-    ans = x*x;
-    return ans;
+function greet(name, cb){
+    console.log("Hello, "+ name + "!");
+    cb();
+
 }
-console.log("the answer is:"+ sq(12));
+function gdb() {
+    console.log("Goodbye mussammel!");
+
+}
+greet("Musammel",gdb);
+function coolcoolcool(name, cb){
+    console.log("Cool cool cool coool cool cool cool"+name+"lol");
+    cb();
+}
+function gdb(){
+    console.log("cute cute cute cute cute");
+}
+coolcoolcool("All i want for christmas is sperm",gdb);
